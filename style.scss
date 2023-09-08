@@ -1,0 +1,12 @@
+.inventoryImages {
+    position: left;
+    display: flexbox;
+    height: 90px;
+    width: 90px;
+}
+
+.knapp {
+    &:hover {
+        background-color: lightgreen;
+    }
+}
